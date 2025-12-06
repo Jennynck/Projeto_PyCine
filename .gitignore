@@ -1,0 +1,7 @@
+# ambiente virtual
+env
+# arquivo de credenciais
+.env
+# outras pastas:
+__pycache__/
+.vscode

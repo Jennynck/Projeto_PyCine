@@ -1,0 +1,50 @@
+{
+    "pais": [
+        {
+            "pt-Br": "República Cooperativa da Guiana",
+            "en": "Co-operative Republic of Guyana"
+        }
+    ],
+    "bandeira": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_Guyana.svg/960px-Flag_of_Guyana.svg.png",
+    "brasao": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.wikiwand.com%2Fpt%2Farticles%2FBras%25C3%25A3o_de_armas_da_Guiana&psig=AOvVaw0Fj1872R203GNf9FqP4m86&ust=1754527747854000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCNijw6v79I4DFQAAAAAdAAAAABAK",
+    "lema": "Um Povo, Uma Nação, Um Destino",
+    "capital": [
+        {
+            "nome": "Georgetown",
+            "coordenadas": "6°46′N 58°10W"
+        }
+    ],
+    "lingua_oficial": "inglês",
+    "governo": [
+        {
+            "tipo": "República presidencialista",
+            "presidente": "Irfaan Ali"
+        }
+    ],
+    "area": [
+        {
+            "total": 214970,
+            "agua": 8.4,
+            "fronteira": ["Brasil", "Suriname", "Venezuela"]
+        }
+    ],
+    "população": [
+        {
+            "estimativa_2023": 786793,
+            "densidade": 3.5
+        }
+    ],
+    "pib": [
+        {
+            "total": 48514,
+            "per_capita": 20564
+        }
+    ],
+    "idh": 0.742,
+    "moeda": "Dólar guianense (GYD)",
+    "fuso_horario": "UTC-4",
+    "codigo_iso": "GUY",
+    "codigo_internet": ".gy",
+    "codigo_telef": 592,
+    "website_governamnetal": "https://op.gov.gy/"
+}

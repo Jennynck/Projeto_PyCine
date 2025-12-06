@@ -1,0 +1,34 @@
+{
+  "quotes": [
+    {
+      "q": "What have you done today to make someone else happy?",
+      "a": "Deepam Chaterjee",
+      "h": "<blockquote>&ldquo;What have you done today to make someone else happy?&rdquo; &mdash; <footer>Deepam Chaterjee</footer></blockquote>"
+    },
+    {
+        "q": "The few who do are the envy of the many who only watch.",
+        "a": "Jim Rohn",
+        "h": "<blockquote>&ldquo;The few who do are the envy of the many who only watch.&rdquo; &mdash; <footer>Jim Rohn</footer></blockquote>"
+    },
+    {
+        "q": "Every day do something that will inch you closer to a better tomorrow.",
+        "a": "Unknown",
+        "h": "<blockquote>&ldquo;Every day do something that will inch you closer to a better tomorrow.&rdquo; &mdash; <footer>Unknown</footer></blockquote>"
+    },
+    {
+        "q": "I defeat my enemies when I make them my friends.",
+        "a": "Dalai Lama",
+        "h": "<blockquote>&ldquo;I defeat my enemies when I make them my friends.&rdquo; &mdash; <footer>Dalai Lama</footer></blockquote>"
+    },
+    {
+        "q": "All animals except man know that the principal business of life is to enjoy it.",
+        "a": "Samuel Butler",
+        "h": "<blockquote>&ldquo;All animals except man know that the principal business of life is to enjoy it.&rdquo; &mdash; <footer>Samuel Butler</footer></blockquote>"
+    },
+    {
+        "q": "Every day is lost in which we do not learn something useful. Man has no nobler or more valuable possession than time.",
+        "a": "Thomas Jefferson",
+        "h": "<blockquote>&ldquo;Every day is lost in which we do not learn something useful. Man has no nobler or more valuable possession than time.&rdquo; &mdash; <footer>Thomas Jefferson</footer></blockquote>"
+    }
+  ]
+}

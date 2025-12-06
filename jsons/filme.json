@@ -1,0 +1,34 @@
+{
+    "titulo": [
+        {
+            "original": "Silver Linings Playbook (Original)",
+            "pt-Br": "O lado bom da vida"
+        }
+    ],
+    "ano": 2012,
+    "direcao": "David O. Russell",
+    "estreia": "08-09-2012",
+    "duracao": 122,
+    "classificacao": "14 anos",
+    "genero": ["Drama", "Comédia", "Romance"],
+    "paises":["Estados Unidos da América", "Brasil"],
+    "sinopse": "Pat Solitano Jr. (Bradley Cooper) perdeu absolutamente tudo na vida: sua casa, o emprego e a esposa. Deprimido, ele vai parar em um sanatório, onde fica internado por oito meses. Ao sair, Pat passa a morar com os pais e está decidido a reconstruir sua vida, o que inclui retomar o casamento, passando por cima de todos os problemas que teve. Entretanto, seu novo plano começa a mudar quando ele conhece Tiffany (Jennifer Lawrence), uma garota misteriosa que também tem seus problemas.",
+    "elenco": [
+        {
+            "img": "https://media.fstatic.com/eMMNeL-QZ0pjya3gT6PmMfMBHnA=/210x312/smart/filters:format(webp)/media/artists/avatar/2024/05/bradley-cooper_a58618.jpg",
+            "ator": "Bradley Cooper",
+            "personagem": "Pat Peoples"
+        },
+        {
+            "img": "https://media.fstatic.com/Sm9YCxkY8DO9PaaeF10MNAJ901c=/210x312/smart/filters:format(webp)/media/artists/avatar/2024/05/jennifer-lawrence_a167413.jpg",
+            "ator": "Jennifer Lawrence",
+            "personagem": "Tiffany"
+        },
+        {
+            "img": "hhttps://media.fstatic.com/bpJVh3Miu3FXinbQrt4I6NFdbhM=/full-fit-in/290x478/filters:format(webp)/media/artists/avatar/2013/06/robert-de-niro_a1256_1.jpg",
+            "ator": "Robert De Niro",
+            "personagem": "Sr Patisolitano"
+        }
+    ]
+
+}

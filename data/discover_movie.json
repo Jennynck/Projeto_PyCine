@@ -1,0 +1,115 @@
+[
+  {
+    "id": 1038392,
+    "original_title": "The Conjuring: Last Rites",
+    "genre_ids": [
+      27
+    ],
+    "overview": "Paranormal investigators Ed and Lorraine Warren take on one last terrifying case involving mysterious entities they must confront.",
+    "popularity": 432.9578,
+    "poster_path": "/7JzOmJ1fIU43I3gLHYsY8UzNzjG.jpg",
+    "title": "The Conjuring: Last Rites",
+    "release_date": "2025-09-03",
+    "vote_average": 6.948,
+    "vote_count": 963,
+    "poster_url": "http://image.tmdb.org/t/p/w185/7JzOmJ1fIU43I3gLHYsY8UzNzjG.jpg"
+  },
+  {
+    "id": 755898,
+    "original_title": "War of the Worlds",
+    "genre_ids": [
+      878,
+      53
+    ],
+    "overview": "Will Radford is a top analyst for Homeland Security who tracks potential threats through a mass surveillance program, until one day an attack by an unknown entity leads him to question whether the government is hiding something from him... and from the rest of the world.",
+    "popularity": 288.3355,
+    "poster_path": "/yvirUYrva23IudARHn3mMGVxWqM.jpg",
+    "title": "War of the Worlds",
+    "release_date": "2025-07-29",
+    "vote_average": 4.32,
+    "vote_count": 632,
+    "poster_url": "http://image.tmdb.org/t/p/w185/yvirUYrva23IudARHn3mMGVxWqM.jpg"
+  },
+  {
+    "id": 1086910,
+    "original_title": "The Lost Princess",
+    "genre_ids": [
+      28,
+      12
+    ],
+    "overview": "After an Ayahuasca vision transports him to a haunted castle, Alec meets Hanna who tales him the story of her mother's forced marriage and how the forbidden passion with her father was in danger when the princess pregnancy became obvious",
+    "popularity": 280.8371,
+    "poster_path": "/31S2ISsDtbnxb0kuXZl1SxSMD0K.jpg",
+    "title": "The Lost Princess",
+    "release_date": "2025-10-16",
+    "vote_average": 6.44,
+    "vote_count": 25,
+    "poster_url": "http://image.tmdb.org/t/p/w185/31S2ISsDtbnxb0kuXZl1SxSMD0K.jpg"
+  },
+  {
+    "id": 617126,
+    "original_title": "The Fantastic 4: First Steps",
+    "genre_ids": [
+      878,
+      12
+    ],
+    "overview": "Against the vibrant backdrop of a 1960s-inspired, retro-futuristic world, Marvel's First Family is forced to balance their roles as heroes with the strength of their family bond, while defending Earth from a ravenous space god called Galactus and his enigmatic Herald, Silver Surfer.",
+    "popularity": 197.4844,
+    "poster_path": "/cm8TNGBGG0aBfWj0LgrESHv8tir.jpg",
+    "title": "The Fantastic 4: First Steps",
+    "release_date": "2025-07-23",
+    "vote_average": 7.131,
+    "vote_count": 1983,
+    "poster_url": "http://image.tmdb.org/t/p/w185/cm8TNGBGG0aBfWj0LgrESHv8tir.jpg"
+  },
+  {
+    "id": 1290879,
+    "original_title": "The Woman in Cabin 10",
+    "genre_ids": [
+      9648,
+      53,
+      80
+    ],
+    "overview": "On a lavish yacht for an assignment, a journalist sees a passenger go overboard. But when no one believes her, she risks her life to uncover the truth.",
+    "popularity": 188.0594,
+    "poster_path": "/4kpdyePOlcELQQJcxXPF5GB1Adw.jpg",
+    "title": "The Woman in Cabin 10",
+    "release_date": "2025-10-09",
+    "vote_average": 6.135,
+    "vote_count": 241,
+    "poster_url": "http://image.tmdb.org/t/p/w185/4kpdyePOlcELQQJcxXPF5GB1Adw.jpg"
+  },
+  {
+    "id": 1010756,
+    "original_title": "The Strangers: Chapter 2",
+    "genre_ids": [
+      27,
+      53
+    ],
+    "overview": "When The Strangers learn that one of their victims, Maya, is still alive, they return to finish what they’ve started.",
+    "popularity": 149.9505,
+    "poster_path": "/pqADzs5SJvI2jC0DThPVMuNJcWS.jpg",
+    "title": "The Strangers: Chapter 2",
+    "release_date": "2025-09-25",
+    "vote_average": 5.4,
+    "vote_count": 37,
+    "poster_url": "http://image.tmdb.org/t/p/w185/pqADzs5SJvI2jC0DThPVMuNJcWS.jpg"
+  },
+  {
+    "id": 575265,
+    "original_title": "Mission: Impossible - The Final Reckoning",
+    "genre_ids": [
+      28,
+      12,
+      53
+    ],
+    "overview": "Ethan Hunt and team continue their search for the terrifying AI known as the Entity — which has infiltrated intelligence networks all over the globe — with the world's governments and a mysterious ghost from Hunt's past on their trail. Joined by new allies and armed with the means to shut the Entity down for good, Hunt is in a race against time to prevent the world as we know it from changing forever.",
+    "popularity": 141.752,
+    "poster_path": "/z53D72EAOxGRqdr7KXXWp9dJiDe.jpg",
+    "title": "Mission: Impossible - The Final Reckoning",
+    "release_date": "2025-05-17",
+    "vote_average": 7.266,
+    "vote_count": 1925,
+    "poster_url": "http://image.tmdb.org/t/p/w185/z53D72EAOxGRqdr7KXXWp9dJiDe.jpg"
+  }
+]

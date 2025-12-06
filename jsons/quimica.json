@@ -1,0 +1,55 @@
+[
+    {
+        "nomes": "Ouro",
+        "simbolo": "Au",
+        "numero_atomico": 79,
+        "serie_quimica": "Metal de transição",
+        "grupo_periodo_bloco": "11(IB), 6, d",
+        "densidade_dureza": {
+            "densidade": "19300 kg/m³",
+            "dureza": 2.5
+        },
+        "numero_CAS": "7440-57-5",
+        "propriedades_atomicas": {
+            "massa_atomica": "196,966569(4) u",
+            "raio_atomico": "174 pm",
+            "raio_covalente": "144 pm",
+            "raio_van_der_waals": "166 pm",
+            "configuracao_eletronica": "[Xe] 4f14 5d9 6s2",
+            "eletrons_por_nivel": [2, 8, 18, 32, 18, 1],
+            "estados_oxidacao": "3,1 (anfótero)",
+            "estrutura_cristalina": "Cúbico de faces centradas"
+        },
+        "propriedades_fisicas": {
+            "estado_materia": "Sólido",
+            "ponto_fusao": "1337,33 K"
+        }
+    },
+    {
+        "nomes": "Hidrogênio",
+        "simbolo": "H",
+        "numero_atomico": 1,
+        "serie_quimica": "Não-metal",
+        "grupo_periodo_bloco": "1(IA), 1, s",
+        "densidade_dureza": {
+            "densidade": "0,0899 kg/m³",
+            "dureza": "não apresenta"
+        },
+        "numero_CAS": "1333-74-0",
+        "propriedades_atomicas": {
+            "massa_atomica": "1,00794(7) u",
+            "raio_atomico": "25(53) pm",
+            "raio_covalente": "37 pm",
+            "raio_van_der_waals": "120 pm",
+            "configuracao_eletronica": "1s1",
+            "eletrons_por_nivel": 1,
+            "estados_oxidacao": "1 (anfótero)",
+            "estrutura_cristalina": "Hexagonal"
+        },
+        "propriedades_fisicas": {
+            "estado_materia": "Gasoso",
+            "ponto_fusao": "14,025 K",
+            "ponto_ebulicao": "20,268 K"
+        }
+    }
+]

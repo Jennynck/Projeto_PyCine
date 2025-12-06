@@ -1,0 +1,97 @@
+[
+  {
+    "id": 28,
+    "name": "Ação",
+    "label": "ação"
+  },
+  {
+    "id": 12,
+    "name": "Aventura",
+    "label": "aventura"
+  },
+  {
+    "id": 16,
+    "name": "Animação",
+    "label": "animação"
+  },
+  {
+    "id": 35,
+    "name": "Comédia",
+    "label": "comédia"
+  },
+  {
+    "id": 80,
+    "name": "Crime",
+    "label": "crime"
+  },
+  {
+    "id": 99,
+    "name": "Documentário",
+    "label": "documentário"
+  },
+  {
+    "id": 18,
+    "name": "Drama",
+    "label": "drama"
+  },
+  {
+    "id": 10751,
+    "name": "Família",
+    "label": "família"
+  },
+  {
+    "id": 14,
+    "name": "Fantasia",
+    "label": "fantasia"
+  },
+  {
+    "id": 36,
+    "name": "História",
+    "label": "história"
+  },
+  {
+    "id": 27,
+    "name": "Terror",
+    "label": "terror"
+  },
+  {
+    "id": 10402,
+    "name": "Música",
+    "label": "música"
+  },
+  {
+    "id": 9648,
+    "name": "Mistério",
+    "label": "mistério"
+  },
+  {
+    "id": 10749,
+    "name": "Romance",
+    "label": "romance"
+  },
+  {
+    "id": 878,
+    "name": "Ficção científica",
+    "label": "ficção-científica"
+  },
+  {
+    "id": 10770,
+    "name": "Cinema TV",
+    "label": "cinema-tv"
+  },
+  {
+    "id": 53,
+    "name": "Thriller",
+    "label": "thriller"
+  },
+  {
+    "id": 10752,
+    "name": "Guerra",
+    "label": "guerra"
+  },
+  {
+    "id": 37,
+    "name": "Faroeste",
+    "label": "faroeste"
+  }
+]
