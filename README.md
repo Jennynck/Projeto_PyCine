@@ -79,12 +79,19 @@ Este projeto foi estruturado pensando em escalabilidade e boas práticas de dese
 
 ---   
 
-## 2. Configurando o Frontend
+### 2. Configurando o Frontend (Interface Visual)
 
-Para instruções de como instalar as dependências e rodar a interface visual no navegador, acesse a documentação específica na pasta do frontend:
+1. Abra um **novo terminal** e entre na pasta do projeto visual:
+   ```bash
+   cd front
+2. Instale as dependências do Node.js:
+   ```bash
+   npm i
+3. Inicie o servidor de desenvolvimento:
+    ```bash
+    npm run dev
 
-`[Acessar README do Frontend](./front/README.md)`
-
+O projeto geralmente ficará disponível em: http://localhost:5173
 ---
 
 Desenvolvido por Jhennifer Nicole
