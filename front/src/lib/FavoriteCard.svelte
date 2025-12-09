@@ -43,11 +43,8 @@
             deleting = false;
         }
     }
-
-	// Define a URL da imagem do artista
-	const imageUrl = person.profile_url ||
-		(person.profile_path ? `https://image.tmdb.org/t/p/w185${person.profile_path}` : null) ||
-		placeholderImage;
+	// URL da imagem do artista
+	const imageUrl = person.profile_url || placeholderImage;
 </script>
 
 <div class="person-card" class:deleting_state={deleting}>
