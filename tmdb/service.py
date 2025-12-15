@@ -119,19 +119,25 @@ class PersonService:
         return person
     
     @staticmethod
-    def find_by_name(name: str) -> list [Person]:
+    def find_by_name(name: str, page: int = 1) -> dict:
         url = f"https://api.themoviedb.org/3/search/person"
         params = {
             "query": name,
             "language": "en-US",
+            "page": page
         }
 
         data = get_json(url, params)
         results = data.get('results', [])
-        persons = [Person.model_validate(p) for p in results ]
-        return persons
+        results = [Person.model_validate(p) for p in results ]
+        return {
+            "results": results,
+            "total_pages": data.get("total_pages", 1),
+            "total_results": data.get("total_results", len(results))                      
+        }
 
-    def get_popular(page: int = 1) -> list [Person]:
+    @staticmethod
+    def get_popular(page: int = 1) -> dict:
         url = "https://api.themoviedb.org/3/person/popular"
         params = {
             "language": "en-US",
@@ -139,9 +145,13 @@ class PersonService:
         }
 
         data = get_json(url, params)
-        results = data['results']
-        persons = [Person.model_validate(p) for p in results ]
-        return persons
+        results = data.get('results', [])
+        results = [Person.model_validate(p) for p in results ]
+        return {
+            "results": results,
+            "total_pages": data.get("total_pages", 1),
+            "total_results": data.get("total_results", len(results))                      
+        }
 
     def get_films_person(person_id: int) -> list [Movie]:
         url = f"https://api.themoviedb.org/3/person/{person_id}/movie_credits"

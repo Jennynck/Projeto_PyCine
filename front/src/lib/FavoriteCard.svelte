@@ -10,7 +10,7 @@
 		e.target.src = placeholderImage;
 	}
 
-    // Converte o ID do genero para texto
+    // Converte o id do genero para texto
     function formatGender(genderId) {
 		if (genderId === 1) return "Feminino";
 		if (genderId === 2) return "Masculino";
@@ -77,6 +77,11 @@
 				Gênero: <span>{formatGender(person.gender)}</span>
 			</p>
 		{/if}
+		{#if person.known_for_department}
+			<p class="person-adicionais">
+				Departamento: <span>{person.known_for_department}</span>
+			</p>
+		{/if}
 
 		{#if error}
 			<p class="error-message">{error}</p>
@@ -94,7 +99,6 @@
 </div>
 
 <style>
-	/* Card do artista com limite de tamanho e sombra */
     .person-card {
         position: relative;
         width: 100%;
@@ -106,13 +110,11 @@
         font-family: Arial, sans-serif;
     }
 
-	/* Card fica transparente enquanto remove */
 	.person-card.deleting_state {
 		opacity: 0.5;
 		pointer-events: none;
 	}
 
-	/* Container da imagem com proporcao 2:3 */
 	.image-container {
 		width: 100%;
 		aspect-ratio: 2 / 3; 
@@ -126,7 +128,6 @@
 		display: block;
 	}
 
-	/* Informacoes do artista */
 	.info-container {
 		padding: 12px;
 	}
@@ -141,7 +142,6 @@
 		text-overflow: ellipsis;
 	}
 
-    /* Dados adicionais como genero e popularidade */
     .person-adicionais {
 		font-size: 0.85rem;
 		color: #666666;
@@ -153,7 +153,6 @@
 		color: #333;
 	}
 
-	/* Mensagem de erro ao remover */
 	.error-message {
 		font-size: 0.75rem;
 		color: #dc2626;
@@ -162,7 +161,6 @@
 		font-weight: bold;
 	}
 
-	/* Botao de remover artista */
 	.remove-btn {
 		margin-top: auto;
 		width: 100%;

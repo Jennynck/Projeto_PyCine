@@ -202,15 +202,15 @@ def get_person(id: int):
     return person
 
 @app.get("/person/name/{name}")
-def get_name(name: str):
+def get_name(name: str, page: int = 1):
     from tmdb.service import PersonService
-    person = PersonService.find_by_name(name)
+    person = PersonService.find_by_name(name, page=page)
     return person
 
 @app.get("/persons/popular")
-def get_popular_persons():
+def get_popular_persons(page: int = 1):
     from tmdb.service import PersonService
-    persons = PersonService.get_popular()
+    persons = PersonService.get_popular(page=page) 
     return persons
 
 @app.get("/person/movies/{person_id}")
