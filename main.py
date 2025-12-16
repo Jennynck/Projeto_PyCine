@@ -136,7 +136,7 @@ async def list_favorites():
     artistas_favoritos = db.get_collection("artistas_favoritos")
     return await artistas_favoritos.find({"known_for_department": "Acting"}, {"_id": 0}).to_list(100)
 
-@app.post("/favorites/person", status_code=201)
+@app.post("/favorites/person", status_code=status.HTTP_201_CREATED)
 async def save_favorite_person(person: dict):
     artistas_favoritos = db.get_collection("artistas_favoritos")
 
@@ -146,7 +146,10 @@ async def save_favorite_person(person: dict):
     # Evita duplicados
     existe = await artistas_favoritos.find_one({"id": person_id})
     if existe:
-        return {"message": "Artista já favoritado"}
+        raise HTTPException(
+            status_code=status.HTTP_409_CONFLICT, 
+            detail="Este artista já está na sua lista de favoritos"
+        )
 
     # Insere o próprio dicionário enviado no body
     result = await artistas_favoritos.insert_one(person)
